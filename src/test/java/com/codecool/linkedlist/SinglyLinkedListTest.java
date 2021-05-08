@@ -11,10 +11,10 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 class SinglyLinkedListTest {
 
-    SinglyLinkedList listUnderTest;
+    SinglyLinkedList<Integer> listUnderTest;
 
     public SinglyLinkedListTest() {
-        this.listUnderTest = new SinglyLinkedList();
+        this.listUnderTest = new SinglyLinkedList<>();
     }
 
     @Test
